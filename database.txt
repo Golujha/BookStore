@@ -1,0 +1,27 @@
+bookstore (DB)
+
+0. genre
+    id, cat_title
+
+2. books
+    (id (int), title(varcher), author(varcher), ISBN(varcher), description(text), cover(varcher), price(float), discount_price(float), genre_id)(int, nop(int))
+
+
+
+NOP = no of page
+
+
+admin
+--include
+  --header.php
+  --side.php
+  -editbook.php
+  -editGenres.php
+  -index.php
+  -insertBook.php
+  -manageBooks.php
+  manageGenres.php
+-header.php
+-index.php
+-login.php
+-logout.php
